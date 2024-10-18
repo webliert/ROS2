@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp -- -j4 -l4
+[0.040s] [ 75%] Built target demo01_talk_str
+[0.040s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listen_str.dir/src/demo02_listen_str.cpp.o[0m
+[5.518s] [100%] [32m[1mLinking CXX executable demo02_listen_str[0m
+[5.747s] [100%] Built target demo02_listen_str
+[5.752s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp -- -j4 -l4
+[5.774s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --install /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp
+[5.776s] -- Install configuration: ""
+[5.776s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo01_talk_str
+[5.777s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo01_talk_str" to ""
+[5.777s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo02_listen_str
+[5.779s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo02_listen_str" to ""
+[5.779s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/ament_index/resource_index/package_run_dependencies/pk02_topic_cpp
+[5.779s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/ament_index/resource_index/parent_prefix_path/pk02_topic_cpp
+[5.779s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/ament_prefix_path.sh
+[5.779s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/ament_prefix_path.dsv
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/path.sh
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/path.dsv
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.bash
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.sh
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.zsh
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.dsv
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/package.dsv
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/ament_index/resource_index/packages/pk02_topic_cpp
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/cmake/pk02_topic_cppConfig.cmake
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/cmake/pk02_topic_cppConfig-version.cmake
+[5.780s] -- Installing: /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/install/pk02_topic_cpp/share/pk02_topic_cpp/package.xml
+[5.781s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --install /home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/build/pk02_topic_cpp

@@ -1,0 +1,9 @@
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/uninstall.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/base_interface_demo_uninstall.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/test.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/edit_cache.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/rebuild_cache.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/list_install_components.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/install.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/install/local.dir
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles/install/strip.dir

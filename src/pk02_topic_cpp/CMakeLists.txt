@@ -8,18 +8,30 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+#find_package(base_interface_demo REQUIRED)
 
-add_executable(topic src/topic.cpp)
-target_include_directories(topic PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
-target_compile_features(topic PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+add_executable(demo01_talk_str src/demo01_talk_str.cpp)
 ament_target_dependencies(
-  topic
+  demo01_talk_str
   "rclcpp"
+  "std_msgs"
+# "base_interface_demo"
 )
 
-install(TARGETS topic
+add_executable(demo02_listen_str src/demo02_listen_str.cpp)
+ament_target_dependencies(
+  demo02_listen_str
+  "rclcpp"
+  "std_msgs"
+#  "base_interface_demo"
+)
+
+
+
+install(TARGETS 
+  demo01_talk_str
+  demo02_listen_str
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

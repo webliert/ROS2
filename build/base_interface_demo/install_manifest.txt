@@ -1,0 +1,15 @@
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/package_run_dependencies/base_interface_demo
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/parent_prefix_path/base_interface_demo
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.sh
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/path.sh
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.bash
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.sh
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.zsh
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.dsv
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/package.dsv
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/packages/base_interface_demo
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig.cmake
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig-version.cmake
+/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/package.xml
