@@ -1,0 +1,97 @@
+[ 25%] Built target demo02_listen_str
+[ 37%] [32mBuilding CXX object CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o[0m
+[ 75%] Built target demo01_talk_str
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:[m[K In member function ‘[01m[Kvoid TalkStu::timer_callback()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:51:26:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K164[m[K’ to ‘[01m[K'\37777777644'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   51 |             stu.height = [01;35m[K164[m[K;
+      |                          [01;35m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:15[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kbase_interface_demo::msg::Student_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"学生信息：%s, 年龄：%d, 身高：%d, 体重：%d"[m[K, stu.name.c_str(), stu.age, stu.height, stu.weight);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:77:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   53 |             RCLCPP_INFO(this->get_logger(), "学生信息：%s, 年龄：%d, 身高：[01;36m[K%d[m[K, 体重：%d", stu.name.c_str(), stu.age, stu.height, stu.weight);
+      |                                                                            [01;36m[K~^[m[K
+      |                                                                             [01;36m[K|[m[K
+      |                                                                             [01;36m[Kint[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:15[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kbase_interface_demo::msg::Student_<std::allocator<void> >::_weight_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   53 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"学生信息：%s, 年龄：%d, 身高：%d, 体重：%d"[m[K, stu.name.c_str(), stu.age, stu.height, stu.weight);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   53 |             RCLCPP_INFO(this->get_logger(), "学生信息：%s, 年龄：%d, 身高：%d, 体重：[01;36m[K%d[m[K", stu.name.c_str(), stu.age, stu.height, stu.weight);
+      |                                                                                      [01;36m[K~^[m[K
+      |                                                                                       [01;36m[K|[m[K
+      |                                                                                       [01;36m[Kint[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+   17 | using namespace std::placeholders::[01;31m[K_1[m[K;
+      |                                    [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:14[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:[m[K In member function ‘[01m[Kvoid ListenStu::topic_callback(const Student&) const[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:36:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kconst _height_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   36 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"订阅的学生消息：name=%s,age=%d,height=%.2f,weight=%.2f"[m[K,msg.name.c_str(),msg.age,msg.height);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:36:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   36 |             RCLCPP_INFO(this->get_logger(), "订阅的学生消息：name=%s,age=%d,height=[01;36m[K%.2f[m[K,weight=%.2f",msg.name.c_str(),msg.age,msg.height);
+      |                                                                                    [01;36m[K~~~^[m[K
+      |                                                                                       [01;36m[K|[m[K
+      |                                                                                       [01;36m[Kdouble[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:14[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:36:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   36 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"订阅的学生消息：name=%s,age=%d,height=%.2f,weight=%.2f"[m[K,msg.name.c_str(),msg.age,msg.height);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:36:99:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   36 |             RCLCPP_INFO(this->get_logger(), "订阅的学生消息：name=%s,age=%d,height=%.2f,weight=[01;36m[K%.2f[m[K",msg.name.c_str(),msg.age,msg.height);
+      |                                                                                                [01;36m[K~~~^[m[K
+      |                                                                                                   [01;36m[K|[m[K
+      |                                                                                                   [01;36m[Kdouble[m[K
+[ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[ 87%] Built target demo03_talker_stu
+gmake[2]: *** [CMakeFiles/demo04_listen_stu.dir/build.make:76：CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listen_stu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

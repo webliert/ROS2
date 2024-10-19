@@ -2,6 +2,8 @@
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/pk02_topic_cpp_uninstall.dir
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/demo01_talk_str.dir
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/demo02_listen_str.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/demo03_talker_stu.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/demo04_listen_stu.dir
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/test.dir
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/edit_cache.dir
 /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp/CMakeFiles/rebuild_cache.dir

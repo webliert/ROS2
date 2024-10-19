@@ -275,7 +275,7 @@ SITE:STRING=lxy-hp
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -369,6 +369,9 @@ ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/bin/ament_uncrustify
 
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
+
+//The directory containing a CMake configuration file for base_interface_demo.
+base_interface_demo_DIR:PATH=/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake

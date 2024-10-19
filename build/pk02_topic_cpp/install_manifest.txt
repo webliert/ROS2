@@ -1,5 +1,7 @@
 /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo01_talk_str
 /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo02_listen_str
+/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo03_talker_stu
+/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo04_listen_stu
 /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/ament_index/resource_index/package_run_dependencies/pk02_topic_cpp
 /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/ament_index/resource_index/parent_prefix_path/pk02_topic_cpp
 /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/ament_prefix_path.sh

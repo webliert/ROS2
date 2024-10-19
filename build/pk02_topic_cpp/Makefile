@@ -223,6 +223,32 @@ demo02_listen_str/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listen_str.dir/build.make CMakeFiles/demo02_listen_str.dir/build
 .PHONY : demo02_listen_str/fast
 
+#=============================================================================
+# Target rules for targets named demo03_talker_stu
+
+# Build rule for target.
+demo03_talker_stu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo03_talker_stu
+.PHONY : demo03_talker_stu
+
+# fast build rule for target.
+demo03_talker_stu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/build
+.PHONY : demo03_talker_stu/fast
+
+#=============================================================================
+# Target rules for targets named demo04_listen_stu
+
+# Build rule for target.
+demo04_listen_stu: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo04_listen_stu
+.PHONY : demo04_listen_stu
+
+# fast build rule for target.
+demo04_listen_stu/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listen_stu.dir/build.make CMakeFiles/demo04_listen_stu.dir/build
+.PHONY : demo04_listen_stu/fast
+
 src/demo01_talk_str.o: src/demo01_talk_str.cpp.o
 .PHONY : src/demo01_talk_str.o
 
@@ -271,6 +297,54 @@ src/demo02_listen_str.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo02_listen_str.dir/build.make CMakeFiles/demo02_listen_str.dir/src/demo02_listen_str.cpp.s
 .PHONY : src/demo02_listen_str.cpp.s
 
+src/demo03_talk_stu.o: src/demo03_talk_stu.cpp.o
+.PHONY : src/demo03_talk_stu.o
+
+# target to build an object file
+src/demo03_talk_stu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o
+.PHONY : src/demo03_talk_stu.cpp.o
+
+src/demo03_talk_stu.i: src/demo03_talk_stu.cpp.i
+.PHONY : src/demo03_talk_stu.i
+
+# target to preprocess a source file
+src/demo03_talk_stu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.i
+.PHONY : src/demo03_talk_stu.cpp.i
+
+src/demo03_talk_stu.s: src/demo03_talk_stu.cpp.s
+.PHONY : src/demo03_talk_stu.s
+
+# target to generate assembly for a file
+src/demo03_talk_stu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo03_talker_stu.dir/build.make CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.s
+.PHONY : src/demo03_talk_stu.cpp.s
+
+src/demo04_listen_stu.o: src/demo04_listen_stu.cpp.o
+.PHONY : src/demo04_listen_stu.o
+
+# target to build an object file
+src/demo04_listen_stu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listen_stu.dir/build.make CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o
+.PHONY : src/demo04_listen_stu.cpp.o
+
+src/demo04_listen_stu.i: src/demo04_listen_stu.cpp.i
+.PHONY : src/demo04_listen_stu.i
+
+# target to preprocess a source file
+src/demo04_listen_stu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listen_stu.dir/build.make CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.i
+.PHONY : src/demo04_listen_stu.cpp.i
+
+src/demo04_listen_stu.s: src/demo04_listen_stu.cpp.s
+.PHONY : src/demo04_listen_stu.s
+
+# target to generate assembly for a file
+src/demo04_listen_stu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo04_listen_stu.dir/build.make CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.s
+.PHONY : src/demo04_listen_stu.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... demo01_talk_str"
 	@echo "... demo02_listen_str"
+	@echo "... demo03_talker_stu"
+	@echo "... demo04_listen_stu"
 	@echo "... src/demo01_talk_str.o"
 	@echo "... src/demo01_talk_str.i"
 	@echo "... src/demo01_talk_str.s"
 	@echo "... src/demo02_listen_str.o"
 	@echo "... src/demo02_listen_str.i"
 	@echo "... src/demo02_listen_str.s"
+	@echo "... src/demo03_talk_stu.o"
+	@echo "... src/demo03_talk_stu.i"
+	@echo "... src/demo03_talk_stu.s"
+	@echo "... src/demo04_listen_stu.o"
+	@echo "... src/demo04_listen_stu.i"
+	@echo "... src/demo04_listen_stu.s"
 .PHONY : help
 
 

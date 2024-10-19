@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.001003] (-) JobUnselected: {'identifier': 'base_interface_demo'}
+[0.001114] (-) JobUnselected: {'identifier': 'pkg01_hello_cpp'}
+[0.001144] (pk02_topic_cpp) JobQueued: {'identifier': 'pk02_topic_cpp', 'dependencies': OrderedDict()}
+[0.001173] (pk02_topic_cpp) JobStarted: {'identifier': 'pk02_topic_cpp'}
+[0.009068] (pk02_topic_cpp) JobProgress: {'identifier': 'pk02_topic_cpp', 'progress': 'cmake'}
+[0.009405] (pk02_topic_cpp) JobProgress: {'identifier': 'pk02_topic_cpp', 'progress': 'build'}
+[0.009956] (pk02_topic_cpp) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp', '--', '-j4', '-l4'], 'cwd': '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN.UTF-8'), ('USER', 'y'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib:/home/y/ROS2_Realman/install/rm_ros_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib/'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/y/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1137'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1306'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=30c276fae2791469d152076967121b56'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '73359'), ('NVM_DIR', '/home/y/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/y/lxy_ROS2/ROS2_git/install:/home/y/ROS2_Realman/install:/home/y/lxy_ROS2/ws00_helloworld/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'y'), ('G2O_DIR', '/home/y/install/g2o/cmake_modules'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:24691'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'y'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/y/.local/bin:/opt/ros/humble/bin:/home/y/.sdkman/candidates/gradle/current/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.local/bin:/home/y/.local/bin'), ('SESSION_MANAGER', 'local/lxy-hp:@/tmp/.ICE-unix/1306,unix/lxy-hp:/tmp/.ICE-unix/1306'), ('SDKMAN_CANDIDATES_DIR', '/home/y/.sdkman/candidates'), ('INVOCATION_ID', 'c21018cff5174161b7e004350e3869bd'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V26SV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a416d90f9c.sock'), ('SDKMAN_DIR', '/home/y/.sdkman'), ('SDKMAN_PLATFORM', 'linuxx64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/lxy_ROS2/ROS2_git/install/pkg01_hello_cpp:/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp:/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo:/home/y/ROS2_Realman/install/rm_example:/home/y/ROS2_Realman/install/rm_driver:/home/y/ROS2_Realman/install/rm_control:/home/y/ROS2_Realman/install/get_arm_state:/home/y/ROS2_Realman/install/force_position_control:/home/y/ROS2_Realman/install/control_arm_move:/home/y/ROS2_Realman/install/rm_ros_interfaces:/home/y/ROS2_Realman/install/rm_install:/home/y/ROS2_Realman/install/rm_gen72_config:/home/y/ROS2_Realman/install/rm_gazebo:/home/y/ROS2_Realman/install/rm_eco65_config:/home/y/ROS2_Realman/install/rm_eco63_config:/home/y/ROS2_Realman/install/rm_doc:/home/y/ROS2_Realman/install/rm_75_config:/home/y/ROS2_Realman/install/rm_63_config:/home/y/ROS2_Realman/install/rm_description:/home/y/ROS2_Realman/install/rm_bringup:/home/y/ROS2_Realman/install/rm_65_config:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/home/y/lxy_ROS2/ws00_helloworld/install/pkg01_helloworld_cpp:/opt/ros/humble'), ('LC_MESSAGES', 'zh_CN.UTF-8'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp'), ('LC_ALL', ''), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=30c276fae2791469d152076967121b56'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages:/home/y/ROS2_Realman/install/rm_ros_interfaces/local/lib/python3.10/dist-packages:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/y/lxy_ROS2/ROS2_git/install/pkg01_hello_cpp:/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp:/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo:/home/y/ROS2_Realman/install/rm_example:/home/y/ROS2_Realman/install/rm_driver:/home/y/ROS2_Realman/install/rm_control:/home/y/ROS2_Realman/install/get_arm_state:/home/y/ROS2_Realman/install/force_position_control:/home/y/ROS2_Realman/install/control_arm_move:/home/y/ROS2_Realman/install/rm_ros_interfaces:/home/y/ROS2_Realman/install/rm_install:/home/y/ROS2_Realman/install/rm_gen72_config:/home/y/ROS2_Realman/install/rm_gazebo:/home/y/ROS2_Realman/install/rm_eco65_config:/home/y/ROS2_Realman/install/rm_eco63_config:/home/y/ROS2_Realman/install/rm_doc:/home/y/ROS2_Realman/install/rm_75_config:/home/y/ROS2_Realman/install/rm_63_config:/home/y/ROS2_Realman/install/rm_description:/home/y/ROS2_Realman/install/rm_bringup:/home/y/ROS2_Realman/install/rm_65_config:/home/y/lxy_ROS2/ws00_helloworld/install/pkg01_helloworld_cpp:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble')]), 'shell': False}
+[0.025705] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099849] (-) TimerEvent: {}
+[0.100464] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.124344] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.126416] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.130583] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.139160] (pk02_topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.148731] (pk02_topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.179268] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.180616] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200295] (-) TimerEvent: {}
+[0.273581] (pk02_topic_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300440] (-) TimerEvent: {}
+[0.314141] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found base_interface_demo: 0.0.0 (/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake)\n'}
+[0.330752] (pk02_topic_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.388930] (pk02_topic_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.389266] (pk02_topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.389309] (pk02_topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.389670] (pk02_topic_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.390807] (pk02_topic_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.390888] (pk02_topic_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.391774] (pk02_topic_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.391866] (pk02_topic_cpp) StdoutLine: {'line': b'-- Configuring done (0.4s)\n'}
+[0.402071] (-) TimerEvent: {}
+[0.407399] (pk02_topic_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.409196] (pk02_topic_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp\n'}
+[0.438174] (pk02_topic_cpp) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o\x1b[0m\n'}
+[0.459080] (pk02_topic_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listen_str.dir/src/demo02_listen_str.cpp.o\x1b[0m\n'}
+[0.459272] (pk02_topic_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o\x1b[0m\n'}
+[0.459315] (pk02_topic_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talk_str.dir/src/demo01_talk_str.cpp.o\x1b[0m\n'}
+[0.502425] (-) TimerEvent: {}
+[0.605084] (-) TimerEvent: {}
+[0.706874] (-) TimerEvent: {}
+[0.807381] (-) TimerEvent: {}
+[0.908285] (-) TimerEvent: {}
+[1.008893] (-) TimerEvent: {}
+[1.109430] (-) TimerEvent: {}
+[1.210000] (-) TimerEvent: {}
+[1.313169] (-) TimerEvent: {}
+[1.413914] (-) TimerEvent: {}
+[1.514608] (-) TimerEvent: {}
+[1.615292] (-) TimerEvent: {}
+[1.715956] (-) TimerEvent: {}
+[1.816377] (-) TimerEvent: {}
+[1.920236] (-) TimerEvent: {}
+[2.022190] (-) TimerEvent: {}
+[2.122800] (-) TimerEvent: {}
+[2.223852] (-) TimerEvent: {}
+[2.324581] (-) TimerEvent: {}
+[2.425993] (-) TimerEvent: {}
+[2.531634] (-) TimerEvent: {}
+[2.634909] (-) TimerEvent: {}
+[2.735870] (-) TimerEvent: {}
+[2.841025] (-) TimerEvent: {}
+[2.943427] (-) TimerEvent: {}
+[3.044408] (-) TimerEvent: {}
+[3.105466] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:19:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interfaces_demo\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.106070] (pk02_topic_cpp) StderrLine: {'line': b'   19 | using \x1b[01;31m\x1b[Kbase_interfaces_demo\x1b[m\x1b[K::msg::Student;\n'}
+[3.106323] (pk02_topic_cpp) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.109737] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.111564] (pk02_topic_cpp) StderrLine: {'line': b'   60 |         rclcpp::Publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr publisher_;\n'}
+[3.111769] (pk02_topic_cpp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.116788] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.117164] (pk02_topic_cpp) StderrLine: {'line': b'   60 |         rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[3.117401] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.133344] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.134287] (pk02_topic_cpp) StderrLine: {'line': b'   60 |         rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[3.134630] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.139400] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.139894] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.140312] (pk02_topic_cpp) StderrLine: {'line': b'   60 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.140664] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.140843] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.142202] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTalkStu::TalkStu()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.144722] (-) TimerEvent: {}
+[3.145318] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.145833] (pk02_topic_cpp) StderrLine: {'line': b'   30 |             \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<Student>("topic_str", 10);\n'}
+[3.146265] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146481] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.146555] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStudent\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kbase_interface_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.146612] (pk02_topic_cpp) StderrLine: {'line': b'   30 |             publisher_ = this->create_publisher<\x1b[01;31m\x1b[KStudent\x1b[m\x1b[K>("topic_str", 10);\n'}
+[3.146656] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.146699] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kbase_interface_demo::msg::Student\x1b[m\x1b[K\n'}
+[3.146745] (pk02_topic_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.hpp:7\x1b[m\x1b[K,\n'}
+[3.146787] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:16\x1b[m\x1b[K:\n'}
+[3.146825] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.hpp:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbase_interface_demo::msg::Student\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.146870] (pk02_topic_cpp) StderrLine: {'line': b'  166 | using \x1b[01;36m\x1b[KStudent\x1b[m\x1b[K =\n'}
+[3.146914] (pk02_topic_cpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.146957] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTalkStu::create_publisher<<expression error> >(const char [10], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.147003] (pk02_topic_cpp) StderrLine: {'line': b'   30 |             publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<Student>("topic_str", 10)\x1b[m\x1b[K;\n'}
+[3.147099] (pk02_topic_cpp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.147151] (pk02_topic_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.147213] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.147264] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.147310] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:15\x1b[m\x1b[K:\n'}
+[3.147358] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.147410] (pk02_topic_cpp) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.147452] (pk02_topic_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.147495] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.147562] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.147621] (pk02_topic_cpp) StderrLine: {'line': b'   30 |             publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<Student>("topic_str", 10)\x1b[m\x1b[K;\n'}
+[3.147667] (pk02_topic_cpp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.163285] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TalkStu::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.163478] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:48:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.163517] (pk02_topic_cpp) StderrLine: {'line': b'   48 |             auto message = \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String();\n'}
+[3.163547] (pk02_topic_cpp) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.168434] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.168927] (pk02_topic_cpp) StderrLine: {'line': b'   53 |             \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(Stu);\n'}
+[3.169180] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.169657] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.173824] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.175555] (pk02_topic_cpp) StderrLine: {'line': b'   53 |             publisher_->publish(\x1b[01;31m\x1b[KStu\x1b[m\x1b[K);\n'}
+[3.175935] (pk02_topic_cpp) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.245224] (-) TimerEvent: {}
+[3.294221] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:17:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 is not a namespace-name\n'}
+[3.294634] (pk02_topic_cpp) StderrLine: {'line': b'   17 | using namespace std::placeholders::\x1b[01;31m\x1b[K_1\x1b[m\x1b[K;\n'}
+[3.294981] (pk02_topic_cpp) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.297079] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.298250] (pk02_topic_cpp) StderrLine: {'line': b'   34 |         void topic_callback(const \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String & msg)const\n'}
+[3.298503] (pk02_topic_cpp) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.298699] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.298923] (pk02_topic_cpp) StderrLine: {'line': b'   34 |         void topic_callback(const std_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString & msg)const\n'}
+[3.299115] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.299252] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.299347] (pk02_topic_cpp) StderrLine: {'line': b'   34 |         void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString & msg)const\n'}
+[3.299377] (pk02_topic_cpp) StderrLine: {'line': b'      |                            \x1b[34m\x1b[K~\x1b[m\x1b[K                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.299403] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[3.299427] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.299454] (pk02_topic_cpp) StderrLine: {'line': b'   34 |         void topic_callback(const std_msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String & msg)const\n'}
+[3.299478] (pk02_topic_cpp) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.299512] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.302481] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[3.305471] (pk02_topic_cpp) StderrLine: {'line': b'   34 |         void topic_callback(const std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K & msg)const\n'}
+[3.305765] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.307693] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.307997] (pk02_topic_cpp) StderrLine: {'line': b'   40 |         rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr subscription_;\n'}
+[3.308201] (pk02_topic_cpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.308389] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.308432] (pk02_topic_cpp) StderrLine: {'line': b'   40 |         rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[3.308459] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.308485] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[3.308510] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[3.308533] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[3.308557] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.308581] (pk02_topic_cpp) StderrLine: {'line': b'   40 |         rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[3.308606] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.308629] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.311266] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.311589] (pk02_topic_cpp) StderrLine: {'line': b'   40 |         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[3.311789] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.312006] (pk02_topic_cpp) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.321516] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KListenStu::ListenStu()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.321963] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:28:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.322174] (pk02_topic_cpp) StderrLine: {'line': b'   28 |             \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<Student>("topic_stu",10,std::bind(&ListenStu::topic_callback, this, std::placeholders::_1));\\\n'}
+[3.322436] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.322503] (pk02_topic_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[3.345562] (-) TimerEvent: {}
+[3.446181] (-) TimerEvent: {}
+[3.554376] (-) TimerEvent: {}
+[3.635856] (pk02_topic_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.638850] (pk02_topic_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195\xef\xbc\x9aCMakeFiles/demo03_talker_stu.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.639253] (pk02_topic_cpp) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[3.654605] (-) TimerEvent: {}
+[3.755944] (-) TimerEvent: {}
+[3.784011] (pk02_topic_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39\x1b[m\x1b[K,\n'}
+[3.784220] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.784275] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.784329] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.784364] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.784390] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.784423] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.784448] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.784475] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.784499] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.784524] (pk02_topic_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:14\x1b[m\x1b[K:\n'}
+[3.784549] (pk02_topic_cpp) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.784579] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   recursively required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784608] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784634] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = base_interface_demo::msg::Student_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784670] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = base_interface_demo::msg::Student_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784701] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784735] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.784765] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:28:63:\x1b[m\x1b[K   required from here\n'}
+[3.784790] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.784842] (pk02_topic_cpp) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[3.784871] (pk02_topic_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.784895] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.784919] (pk02_topic_cpp) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[3.784944] (pk02_topic_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.784967] (pk02_topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.784994] (pk02_topic_cpp) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[3.785019] (pk02_topic_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.856590] (-) TimerEvent: {}
+[3.957000] (-) TimerEvent: {}
+[4.057472] (-) TimerEvent: {}
+[4.158353] (-) TimerEvent: {}
+[4.258723] (-) TimerEvent: {}
+[4.362397] (-) TimerEvent: {}
+[4.464175] (-) TimerEvent: {}
+[4.565279] (-) TimerEvent: {}
+[4.666124] (-) TimerEvent: {}
+[4.767074] (-) TimerEvent: {}
+[4.867817] (-) TimerEvent: {}
+[4.969533] (-) TimerEvent: {}
+[5.002522] (pk02_topic_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable demo01_talk_str\x1b[0m\n'}
+[5.070874] (-) TimerEvent: {}
+[5.162080] (pk02_topic_cpp) StdoutLine: {'line': b'[ 62%] Built target demo01_talk_str\n'}
+[5.171263] (-) TimerEvent: {}
+[5.271744] (-) TimerEvent: {}
+[5.372539] (-) TimerEvent: {}
+[5.475676] (-) TimerEvent: {}
+[5.490699] (pk02_topic_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo04_listen_stu.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.491169] (pk02_topic_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221\xef\xbc\x9aCMakeFiles/demo04_listen_stu.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.575944] (-) TimerEvent: {}
+[5.677333] (-) TimerEvent: {}
+[5.777950] (-) TimerEvent: {}
+[5.878589] (-) TimerEvent: {}
+[5.979905] (-) TimerEvent: {}
+[6.080525] (-) TimerEvent: {}
+[6.180990] (-) TimerEvent: {}
+[6.281477] (-) TimerEvent: {}
+[6.381856] (-) TimerEvent: {}
+[6.482242] (-) TimerEvent: {}
+[6.583027] (-) TimerEvent: {}
+[6.684387] (-) TimerEvent: {}
+[6.785162] (-) TimerEvent: {}
+[6.885621] (-) TimerEvent: {}
+[6.986287] (-) TimerEvent: {}
+[7.086926] (-) TimerEvent: {}
+[7.187560] (-) TimerEvent: {}
+[7.288728] (-) TimerEvent: {}
+[7.389676] (-) TimerEvent: {}
+[7.490541] (-) TimerEvent: {}
+[7.591787] (-) TimerEvent: {}
+[7.692082] (-) TimerEvent: {}
+[7.792617] (-) TimerEvent: {}
+[7.893228] (-) TimerEvent: {}
+[7.994397] (-) TimerEvent: {}
+[8.083145] (pk02_topic_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_listen_str\x1b[0m\n'}
+[8.095203] (-) TimerEvent: {}
+[8.196114] (-) TimerEvent: {}
+[8.296787] (-) TimerEvent: {}
+[8.346934] (pk02_topic_cpp) StdoutLine: {'line': b'[ 75%] Built target demo02_listen_str\n'}
+[8.348100] (pk02_topic_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.351106] (pk02_topic_cpp) CommandEnded: {'returncode': 2}
+[8.393264] (pk02_topic_cpp) JobEnded: {'identifier': 'pk02_topic_cpp', 'rc': 2}
+[8.397244] (-) TimerEvent: {}
+[8.404536] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o[0m
+[ 37%] Built target demo01_talk_str
+[ 62%] Built target demo02_listen_str
+[ 75%] [32mBuilding CXX object CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[ 87%] Built target demo03_talker_stu
+[100%] [32m[1mLinking CXX executable demo04_listen_stu[0m
+[100%] Built target demo04_listen_stu
+-- Install configuration: ""
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo01_talk_str
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo02_listen_str
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo03_talker_stu
+-- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo03_talker_stu" to ""
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo04_listen_stu
+-- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/lib/pk02_topic_cpp/demo04_listen_stu" to ""
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/ament_index/resource_index/package_run_dependencies/pk02_topic_cpp
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/ament_index/resource_index/parent_prefix_path/pk02_topic_cpp
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/path.sh
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/environment/path.dsv
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.bash
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.sh
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.zsh
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/local_setup.dsv
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/package.dsv
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/ament_index/resource_index/packages/pk02_topic_cpp
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/cmake/pk02_topic_cppConfig.cmake
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/cmake/pk02_topic_cppConfig-version.cmake
+-- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/pk02_topic_cpp/share/pk02_topic_cpp/package.xml

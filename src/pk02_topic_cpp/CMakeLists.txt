@@ -9,29 +9,47 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-#find_package(base_interface_demo REQUIRED)
+find_package(base_interface_demo REQUIRED)
 
 add_executable(demo01_talk_str src/demo01_talk_str.cpp)
+add_executable(demo02_listen_str src/demo02_listen_str.cpp)
+add_executable(demo03_talker_stu src/demo03_talk_stu.cpp)
+add_executable(demo04_listen_stu src/demo04_listen_stu.cpp)
+
 ament_target_dependencies(
   demo01_talk_str
   "rclcpp"
   "std_msgs"
-# "base_interface_demo"
+ "base_interface_demo"
 )
 
-add_executable(demo02_listen_str src/demo02_listen_str.cpp)
+
 ament_target_dependencies(
   demo02_listen_str
   "rclcpp"
   "std_msgs"
-#  "base_interface_demo"
+  "base_interface_demo"
 )
 
+ament_target_dependencies(
+  demo03_talker_stu
+  "rclcpp"
+  "std_msgs"
+  "base_interface_demo"
+)
 
+ament_target_dependencies(
+  demo04_listen_stu
+  "rclcpp"
+  "std_msgs"
+  "base_interface_demo"
+)
 
 install(TARGETS 
   demo01_talk_str
   demo02_listen_str
+  demo03_talker_stu
+  demo04_listen_stu
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

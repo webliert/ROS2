@@ -1,0 +1,205 @@
+[0.009s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo -- -j4 -l4
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.101s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.268s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.417s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.434s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.434s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.448s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.455s] -- Added test 'lint_cmake' to check CMake code style
+[0.456s] -- Added test 'xmllint' to check XML markup files
+[0.461s] -- Configuring done (0.4s)
+[0.484s] -- Generating done (0.0s)
+[0.487s] -- Build files have been written to: /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo
+[0.498s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.507s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.507s] [  6%] Built target ament_cmake_python_copy_base_interface_demo
+[0.658s] running egg_info
+[0.661s] writing base_interface_demo.egg-info/PKG-INFO
+[0.661s] writing dependency_links to base_interface_demo.egg-info/dependency_links.txt
+[0.661s] writing top-level names to base_interface_demo.egg-info/top_level.txt
+[0.662s] reading manifest file 'base_interface_demo.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'base_interface_demo.egg-info/SOURCES.txt'
+[0.662s] [  6%] Built target base_interface_demo__cpp
+[0.665s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.669s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.676s] [ 12%] Built target ament_cmake_python_build_base_interface_demo_egg
+[0.680s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.686s] [ 19%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interface_demo/msg/detail/student__functions.c.o[0m
+[0.733s] [ 22%] [32m[1mLinking C shared library libbase_interface_demo__rosidl_generator_c.so[0m
+[0.757s] [ 22%] Built target base_interface_demo__rosidl_generator_c
+[0.762s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.827s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interface_demo/msg/student__type_support.cpp.o[0m
+[0.850s] [ 32%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interface_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[0.864s] [ 35%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interface_demo/msg/detail/student__type_support.cpp.o[0m
+[0.937s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interface_demo/msg/detail/student__type_support_c.cpp.o[0m
+[0.999s] [ 41%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_cpp.so[0m
+[1.019s] [ 41%] Built target base_interface_demo__rosidl_typesupport_cpp
+[1.027s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.105s] [ 48%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_introspection_cpp.so[0m
+[1.116s] [ 51%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.154s] [ 51%] Built target base_interface_demo__rosidl_typesupport_introspection_cpp
+[1.155s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.171s] [ 54%] Built target base_interface_demo__rosidl_typesupport_fastrtps_cpp
+[1.173s] [ 58%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_fastrtps_c.so[0m
+[1.209s] [ 61%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interface_demo/msg/detail/student__type_support.c.o[0m
+[1.219s] [ 61%] Built target base_interface_demo__rosidl_typesupport_fastrtps_c
+[1.232s] [ 64%] [32m[1mLinking C shared library libbase_interface_demo__rosidl_typesupport_introspection_c.so[0m
+[1.248s] [ 64%] Built target base_interface_demo__rosidl_typesupport_introspection_c
+[1.292s] [ 67%] [32mBuilding CXX object CMakeFiles/base_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interface_demo/msg/student__type_support.cpp.o[0m
+[1.311s] [ 70%] [32m[1mLinking CXX shared library libbase_interface_demo__rosidl_typesupport_c.so[0m
+[1.333s] [ 70%] Built target base_interface_demo__rosidl_typesupport_c
+[1.341s] [ 70%] Built target base_interface_demo
+[1.350s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.526s] [ 74%] Built target base_interface_demo__py
+[1.536s] [ 77%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interface_demo/msg/_student_s.c.o[0m
+[1.605s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/libbase_interface_demo__rosidl_generator_py.so[0m
+[1.625s] [ 80%] Built target base_interface_demo__rosidl_generator_py
+[1.638s] [ 83%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.638s] [ 87%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.638s] [ 90%] [32mBuilding C object CMakeFiles/base_interface_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[1.691s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.696s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.696s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.706s] [100%] Built target base_interface_demo__rosidl_typesupport_introspection_c__pyext
+[1.710s] [100%] Built target base_interface_demo__rosidl_typesupport_c__pyext
+[1.711s] [100%] Built target base_interface_demo__rosidl_typesupport_fastrtps_c__pyext
+[1.717s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo -- -j4 -l4
+[1.767s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --install /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo
+[1.769s] -- Install configuration: ""
+[1.769s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/rosidl_interfaces/base_interface_demo
+[1.769s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.769s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.769s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_generator_c__visibility_control.h
+[1.769s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.769s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.h
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__functions.c
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__functions.h
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.h
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.h
+[1.770s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/library_path.sh
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/library_path.dsv
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_c.so
+[1.770s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_c.so" to ""
+[1.770s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.770s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.770s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[1.770s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.770s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so
+[1.771s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.c
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_c.so
+[1.771s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_c.so" to ""
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_c.so
+[1.771s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_c.so" to ""
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.771s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__traits.hpp
+[1.771s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__builder.hpp
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.hpp
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.hpp
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/dds_fastrtps
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so
+[1.772s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg
+[1.772s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__type_support.cpp
+[1.772s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_cpp.so
+[1.773s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_cpp.so
+[1.773s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_typesupport_cpp.so" to ""
+[1.773s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/pythonpath.sh
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/pythonpath.dsv
+[1.773s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/top_level.txt
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.773s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/__init__.py
+[1.773s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_introspection_c.c
+[1.774s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student_s.c
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/__init__.py
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student.py
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/libbase_interface_demo__rosidl_generator_py.so
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.774s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.798s] Listing '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo'...
+[1.798s] Compiling '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/__init__.py'...
+[1.798s] Listing '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg'...
+[1.798s] Compiling '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/__init__.py'...
+[1.798s] Compiling '/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/msg/_student.py'...
+[1.801s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.801s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.802s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.802s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.802s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.802s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/local/lib/python3.10/dist-packages/base_interface_demo/base_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.802s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_py.so
+[1.802s] -- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/lib/libbase_interface_demo__rosidl_generator_py.so" to ""
+[1.802s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/msg/Student.idl
+[1.802s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/msg/Student.msg
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/package_run_dependencies/base_interface_demo
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/parent_prefix_path/base_interface_demo
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.sh
+[1.803s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/ament_prefix_path.dsv
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/path.sh
+[1.803s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/environment/path.dsv
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.bash
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.sh
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.zsh
+[1.803s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/local_setup.dsv
+[1.803s] -- Installing: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/package.dsv
+[1.803s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/ament_index/resource_index/packages/base_interface_demo
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cExport-noconfig.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cExport-noconfig.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_cppExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.804s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cppExport.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cppExport.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_pyExport.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/export_base_interface_demo__rosidl_generator_pyExport-noconfig.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake-extras.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.805s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[1.806s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_targets-extras.cmake
+[1.806s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.806s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.806s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.806s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig.cmake
+[1.807s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake/base_interface_demoConfig-version.cmake
+[1.807s] -- Up-to-date: /home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/package.xml
+[1.807s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --install /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo
