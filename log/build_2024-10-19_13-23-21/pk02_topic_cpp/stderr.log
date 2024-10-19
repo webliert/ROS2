@@ -1,0 +1,89 @@
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_stu.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kbase_interface_demo/include/Student.hpp: 没有那个文件或目录
+   16 | #include [01;31m[K"base_interface_demo/include/Student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76：CMakeFiles/demo03_talker_stu.dir/src/demo01_talk_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker_stu.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_stu.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kbase_interface_demo/msg/Stuent.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"base_interface_demo/msg/Stuent.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo04_listen_stu.dir/build.make:76：CMakeFiles/demo04_listen_stu.dir/src/demo02_listen_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listen_stu.dir/all] 错误 2
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces_demo[m[K’ has not been declared
+   19 | using [01;31m[Kbase_interfaces_demo[m[K::msg::Student;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:30:49:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope
+   30 |             publisher_ = this->create_publisher<[01;31m[KStudent[m[K>("topic_str", 10);
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:30:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [10], int)[m[K’
+   30 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_str", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:30:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_str", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo01_talk_str.cpp:53:33:[m[K [01;31m[Kerror: [m[K‘[01m[KStu[m[K’ was not declared in this scope
+   53 |             publisher_->publish([01;31m[KStu[m[K);
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+   17 | using namespace std::placeholders::[01;31m[K_1[m[K;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces_demo[m[K’ has not been declared
+   19 | using [01;31m[Kbase_interfaces_demo[m[K::msg::student;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:[m[K In constructor ‘[01m[KMinialSubscriber::MinialSubscriber()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:28:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstudent[m[K’ was not declared in this scope
+   28 |             subscription_ = this->create_subscription<[01;31m[Kstudent[m[K>("topic_stu",10,std::bind(&MinialSubscriber::topic_callback, this, std::placeholders::_1));\
+      |                                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:28:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinialSubscriber::create_subscription<<expression error> >(const char [10], int, std::_Bind_helper<false, void (MinialSubscriber::*)(const std_msgs::msg::String_<std::allocator<void> >&) const, MinialSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   28 |             subscription_ = [01;31m[Kthis->create_subscription<student>("topic_stu",10,std::bind(&MinialSubscriber::topic_callback, this, std::placeholders::_1))[m[K;\
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:28:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |             subscription_ = [01;31m[Kthis->create_subscription<student>("topic_stu",10,std::bind(&MinialSubscriber::topic_callback, this, std::placeholders::_1))[m[K;\
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:14[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:[m[K In member function ‘[01m[Kvoid MinialSubscriber::topic_callback(const String&) const[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:36:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kname[m[K’
+   36 |             RCLCPP_INFO(this->get_logger(), "订阅的学生消息：name=%s,age=%d,height=%.2f,weight=%.2f",msg.[01;31m[Kname[m[K.c_str(),msg.age,msg.height);
+      |                                                                                                          [01;31m[K^~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:36:123:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kage[m[K’
+   36 |             RCLCPP_INFO(this->get_logger(), "订阅的学生消息：name=%s,age=%d,height=%.2f,weight=%.2f",msg.name.c_str(),msg.[01;31m[Kage[m[K,msg.height);
+      |                                                                                                                           [01;31m[K^~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo02_listen_str.cpp:36:131:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst String[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheight[m[K’
+   36 |             RCLCPP_INFO(this->get_logger(), "订阅的学生消息：name=%s,age=%d,height=%.2f,weight=%.2f",msg.name.c_str(),msg.age,msg.[01;31m[Kheight[m[K);
+      |                                                                                                                                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_talk_str.dir/build.make:76：CMakeFiles/demo01_talk_str.dir/src/demo01_talk_str.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/demo01_talk_str.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/demo02_listen_str.dir/build.make:76：CMakeFiles/demo02_listen_str.dir/src/demo02_listen_str.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/demo02_listen_str.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

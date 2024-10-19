@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp -- -j4 -l4
+[0.040s] [ 25%] Built target demo02_listen_str
+[0.041s] [ 50%] Built target demo03_talker_stu
+[0.043s] [ 75%] Built target demo01_talk_str
+[0.044s] [ 87%] [32mBuilding CXX object CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o[0m
+[1.546s] [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+[1.546s]    17 | using namespace std::placeholders::[01;31m[K_1[m[K;
+[1.546s]       |                                    [01;31m[K^~[m[K
+[3.288s] gmake[2]: *** [CMakeFiles/demo04_listen_stu.dir/build.make:76：CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o] 错误 1
+[3.288s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listen_stu.dir/all] 错误 2
+[3.288s] gmake: *** [Makefile:146：all] 错误 2
+[3.290s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp -- -j4 -l4

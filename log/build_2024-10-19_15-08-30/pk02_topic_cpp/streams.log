@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp -- -j4 -l4
+[0.030s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.130s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.132s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.137s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.181s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.183s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.276s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.322s] -- Found base_interface_demo: 0.0.0 (/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake)
+[0.338s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.388s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.388s] -- Configured cppcheck include dirs: 
+[0.388s] -- Configured cppcheck exclude dirs and/or files: 
+[0.389s] -- Added test 'lint_cmake' to check CMake code style
+[0.389s] -- Added test 'uncrustify' to check C / C++ code style
+[0.389s] -- Configured uncrustify additional arguments: 
+[0.390s] -- Added test 'xmllint' to check XML markup files
+[0.390s] -- Configuring done (0.4s)
+[0.392s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.392s]   Cannot find source file:
+[0.392s] 
+[0.392s]     src/demo01_talk_str.cpp
+[0.392s] 
+[0.392s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.392s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.392s] 
+[0.392s] [0m
+[0.393s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.393s]   Cannot find source file:
+[0.393s] 
+[0.394s]     src/demo03_talk_stu.cpp
+[0.394s] 
+[0.394s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.394s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.394s] 
+[0.394s] [0m
+[0.394s] [31mCMake Error at CMakeLists.txt:14 (add_executable):
+[0.394s]   No SOURCES given to target: demo01_talk_str
+[0.394s] 
+[0.394s] [0m
+[0.394s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.394s]   No SOURCES given to target: demo03_talker_stu
+[0.394s] 
+[0.394s] [0m
+[0.394s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.398s] gmake: *** [Makefile:390：cmake_check_build_system] 错误 1
+[0.400s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/pk02_topic_cpp -- -j4 -l4

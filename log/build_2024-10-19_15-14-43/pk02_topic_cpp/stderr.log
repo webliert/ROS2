@@ -1,0 +1,132 @@
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_interfaces_demo[m[K’ has not been declared
+   19 | using [01;31m[Kbase_interfaces_demo[m[K::msg::Student;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   60 |         rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+      |                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   60 |         rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   60 |         rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:60:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   60 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+      |                                                             [32m[Krmw_publisher_t[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:[m[K In constructor ‘[01m[KTalkStu::TalkStu()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   30 |             [01;31m[Kpublisher_[m[K = this->create_publisher<Student>("topic_str", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:49:[m[K [01;31m[Kerror: [m[K‘[01m[KStudent[m[K’ was not declared in this scope; did you mean ‘[01m[Kbase_interface_demo::msg::Student[m[K’?
+   30 |             publisher_ = this->create_publisher<[01;31m[KStudent[m[K>("topic_str", 10);
+      |                                                 [01;31m[K^~~~~~~[m[K
+      |                                                 [32m[Kbase_interface_demo::msg::Student[m[K
+In file included from [01m[K/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/student.hpp:7[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:16[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/include/base_interface_demo/base_interface_demo/msg/detail/student__struct.hpp:166:7:[m[K [01;36m[Knote: [m[K‘[01m[Kbase_interface_demo::msg::Student[m[K’ declared here
+  166 | using [01;36m[KStudent[m[K =
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTalkStu::create_publisher<<expression error> >(const char [10], int)[m[K’
+   30 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_str", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:30:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |             publisher_ = [01;31m[Kthis->create_publisher<Student>("topic_str", 10)[m[K;
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:[m[K In member function ‘[01m[Kvoid TalkStu::timer_callback()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:48:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+   48 |             auto message = [01;31m[Kstd_msgs[m[K::msg::String();
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   53 |             [01;31m[Kpublisher_[m[K->publish(Stu);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo03_talk_stu.cpp:53:33:[m[K [01;31m[Kerror: [m[K‘[01m[KStu[m[K’ was not declared in this scope
+   53 |             publisher_->publish([01;31m[KStu[m[K);
+      |                                 [01;31m[K^~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:17:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+   17 | using namespace std::placeholders::[01;31m[K_1[m[K;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   34 |         void topic_callback(const [01;31m[Kstd_msgs[m[K::msg::String & msg)const
+      |                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:48:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   34 |         void topic_callback(const std_msgs::msg[01;31m[K::[m[KString & msg)const
+      |                                                [01;31m[K^~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   34 |         void topic_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString & msg)const
+      |                            [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                [32m[K)[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |         void topic_callback(const std_msgs::[01;31m[Kmsg[m[K::String & msg)const
+      |                                             [01;31m[K^~~[m[K
+      |                                                [32m[K;[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:34:50:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   34 |         void topic_callback(const std_msgs::msg::[01;31m[KString[m[K & msg)const
+      |                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   40 |         rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 |         rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 |         rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+      |                                                               [32m[K;[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:40:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   40 |         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                [32m[Krmw_subscription_t[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:[m[K In constructor ‘[01m[KListenStu::ListenStu()[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   28 |             [01;31m[Ksubscription_[m[K = this->create_subscription<Student>("topic_stu",10,std::bind(&ListenStu::topic_callback, this, std::placeholders::_1));\
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76：CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker_stu.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:14[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)> >[m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   recursively required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   required from ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = base_interface_demo::msg::Student_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = base_interface_demo::msg::Student_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = base_interface_demo::msg::Student_<std::allocator<void> >; CallbackT = std::_Bind<void (ListenStu::*(ListenStu*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void>, base_interface_demo::msg::Student_<std::allocator<void> >, base_interface_demo::msg::Student_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<base_interface_demo::msg::Student_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk02_topic_cpp/src/demo04_listen_stu.cpp:28:63:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+   59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo04_listen_stu.dir/build.make:76：CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listen_stu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

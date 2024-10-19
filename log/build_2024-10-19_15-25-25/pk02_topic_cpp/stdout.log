@@ -1,0 +1,6 @@
+[ 25%] Built target demo02_listen_str
+[ 37%] [32mBuilding CXX object CMakeFiles/demo04_listen_stu.dir/src/demo04_listen_stu.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talk_stu.cpp.o[0m
+[ 75%] Built target demo01_talk_str
+[ 87%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[ 87%] Built target demo03_talker_stu
