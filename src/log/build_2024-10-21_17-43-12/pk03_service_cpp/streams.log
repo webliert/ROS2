@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake /home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp -DCMAKE_INSTALL_PREFIX=/home/y/lxy_ROS2/ROS2_git/src/install/pk03_service_cpp
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.099s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.163s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.487s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.553s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.558s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.569s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.693s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.839s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.873s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.992s] -- Found Threads: TRUE  
+[1.088s] -- Found base_interface_demo: 0.0.0 (/home/y/lxy_ROS2/ROS2_git/src/install/base_interface_demo/share/base_interface_demo/cmake)
+[1.098s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.168s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.169s] -- Configured cppcheck include dirs: 
+[1.169s] -- Configured cppcheck exclude dirs and/or files: 
+[1.170s] -- Added test 'lint_cmake' to check CMake code style
+[1.170s] -- Added test 'uncrustify' to check C / C++ code style
+[1.170s] -- Configured uncrustify additional arguments: 
+[1.171s] -- Added test 'xmllint' to check XML markup files
+[1.172s] -- Configuring done (1.2s)
+[1.182s] -- Generating done (0.0s)
+[1.183s] -- Build files have been written to: /home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp
+[1.190s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake /home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp -DCMAKE_INSTALL_PREFIX=/home/y/lxy_ROS2/ROS2_git/src/install/pk03_service_cpp
+[1.193s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp -- -j4 -l4
+[1.217s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[1.218s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o[0m
+[1.524s] [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo02_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kbase_interface/srv/add_ints.hpp: 没有那个文件或目录
+[1.524s]     2 | #include [01;31m[K"base_interface/srv/add_ints.hpp"[m[K
+[1.524s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.524s] compilation terminated.
+[1.524s] [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo01_service.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kbase_interface/srv/add_ints.hpp: 没有那个文件或目录
+[1.524s]    15 | #include [01;31m[K"base_interface/srv/add_ints.hpp"[m[K
+[1.524s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.524s] compilation terminated.
+[1.530s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76：CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] 错误 1
+[1.530s] gmake[2]: *** [CMakeFiles/demo01_service.dir/build.make:76：CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o] 错误 1
+[1.531s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_client.dir/all] 错误 2
+[1.531s] gmake[1]: *** 正在等待未完成的任务....
+[1.531s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_service.dir/all] 错误 2
+[1.531s] gmake: *** [Makefile:146：all] 错误 2
+[1.532s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/src/build/pk03_service_cpp -- -j4 -l4

@@ -1,0 +1,54 @@
+[0.012s] Invoking command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo -- -j4 -l4
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.086s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.091s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.114s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.227s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.227s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.227s]   base_interface_demo --arguments-file
+[0.227s]   /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_adapter__arguments__base_interface_demo.json
+[0.228s]   --output-dir
+[0.228s]   /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_adapter/base_interface_demo
+[0.228s]   --output-file
+[0.228s]   /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_adapter/base_interface_demo.idls)
+[0.228s]   returned error code 1:
+[0.228s] 
+[0.228s]   Error processing 'int num1' of 'base_interface_demo/AddInts_Request':
+[0.228s]   ''int' is an invalid message name.  It should have the pattern
+[0.228s]   '^[A-Z][A-Za-z0-9]*$''
+[0.228s] 
+[0.228s]   Traceback (most recent call last):
+[0.228s] 
+[0.228s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.228s]       return _run_code(code, main_globals, None,
+[0.228s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.228s]       exec(code, run_globals)
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.228s]       sys.exit(main())
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.228s]       abs_idl_file = convert_to_idl(
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.228s]       return convert_srv_to_idl(
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.228s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.228s]       request_message = parse_message_string(
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.228s]       Type(type_string, context_package_name=pkg_name),
+[0.228s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.228s]       super(Type, self).__init__(
+[0.229s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.229s]       raise InvalidResourceName(
+[0.229s] 
+[0.229s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[0.229s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.229s] 
+[0.229s] Call Stack (most recent call first):
+[0.229s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.229s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.229s] 
+[0.229s] [0m
+[0.229s] -- Configuring incomplete, errors occurred!
+[0.233s] gmake: *** [Makefile:747：cmake_check_build_system] 错误 1
+[0.234s] Invoked command in '/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/lxy_ROS2/ws00_helloworld/install/pkg02_helloworld_py:/opt/ros/humble /usr/local/bin/cmake --build /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo -- -j4 -l4

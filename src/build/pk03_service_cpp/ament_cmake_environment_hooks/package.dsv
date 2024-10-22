@@ -1,0 +1,4 @@
+source;share/pk03_service_cpp/local_setup.bash
+source;share/pk03_service_cpp/local_setup.dsv
+source;share/pk03_service_cpp/local_setup.sh
+source;share/pk03_service_cpp/local_setup.zsh

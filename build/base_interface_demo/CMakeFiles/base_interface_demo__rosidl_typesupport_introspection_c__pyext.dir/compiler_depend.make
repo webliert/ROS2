@@ -247,8 +247,15 @@ CMakeFiles/base_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/ro
   rosidl_generator_c/base_interface_demo/msg/detail/student__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/base_interface_demo/msg/detail/student__functions.h
+  rosidl_generator_c/base_interface_demo/msg/detail/student__functions.h \
+  rosidl_generator_c/base_interface_demo/srv/detail/add_ints__type_support.h \
+  rosidl_generator_c/base_interface_demo/srv/detail/add_ints__struct.h \
+  rosidl_generator_c/base_interface_demo/srv/detail/add_ints__functions.h
 
+
+rosidl_generator_c/base_interface_demo/srv/detail/add_ints__struct.h:
+
+rosidl_generator_c/base_interface_demo/srv/detail/add_ints__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -287,6 +294,8 @@ rosidl_generator_c/base_interface_demo/msg/detail/student__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/sched.h:
+
+rosidl_generator_c/base_interface_demo/srv/detail/add_ints__functions.h:
 
 /usr/include/pthread.h:
 

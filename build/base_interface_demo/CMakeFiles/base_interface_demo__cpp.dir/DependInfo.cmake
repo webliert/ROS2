@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/detail/student__builder.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/detail/student__struct.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/detail/student__traits.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/srv/add_ints.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/srv/detail/add_ints__builder.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/srv/detail/add_ints__struct.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/srv/detail/add_ints__traits.hpp" "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_cpp/base_interface_demo/msg/student.hpp"
   )
 
 

@@ -1,0 +1,33 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo01_service.cpp:[m[K In member function ‘[01m[Kvoid MinimalService::add(base_interface_demo::srv::AddInts_Request_<std::allocator<void> >::SharedPtr, base_interface_demo::srv::AddInts_Response_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo01_service.cpp:34:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum2[m[K’; did you mean ‘[01m[Knum1[m[K’?
+   34 |       res->sum = req->num1 + req->[01;31m[Knum2[m[K;
+      |                                   [01;31m[K^~~~[m[K
+      |                                   [32m[Knum1[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo01_service.cpp:14[m[K:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo01_service.cpp:35:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum2[m[K’; did you mean ‘[01m[Knum1[m[K’?
+   35 |       RCLCPP_INFO(this->get_logger(),"请求数据:(%d,%d),响应结果:%d", req->num1, req->[01;31m[Knum2[m[K, res->sum);
+      |                                                                                      [01;31m[K^~~~[m[K
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo02_client.cpp:[m[K In member function ‘[01m[Krclcpp::Client<base_interface_demo::srv::AddInts>::FutureAndRequestId MinimalClient::send_request(int32_t, int32_t)[m[K’:
+[01m[K/home/y/lxy_ROS2/ROS2_git/src/pk03_service_cpp/src/demo02_client.cpp:47:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interface_demo::srv::AddInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knum2[m[K’; did you mean ‘[01m[Knum1[m[K’?
+   47 |       request->[01;31m[Knum2[m[K = num2;
+      |                [01;31m[K^~~~[m[K
+      |                [32m[Knum1[m[K
+gmake[2]: *** [CMakeFiles/demo01_service.dir/build.make:76：CMakeFiles/demo01_service.dir/src/demo01_service.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_service.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76：CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

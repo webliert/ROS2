@@ -360,7 +360,23 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/srv" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_adapter/base_interface_demo/srv/AddInts.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/msg" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/msg/Student.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/srv" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/srv/AddInts.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/srv" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_cmake/srv/AddInts_Request.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/srv" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_cmake/srv/AddInts_Response.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/msg/__init__.py"
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/msg/_student.py"
   "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/msg/_student_s.c"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/srv/__init__.py"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/srv/_add_ints.py"
+  "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py/base_interface_demo/srv/_add_ints_s.c"
   "CMakeFiles/base_interface_demo__py"
 )
 
