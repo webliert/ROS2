@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found base_interface_demo: 0.0.0 (/home/y/lxy_ROS2/ROS2_git/install/base_interface_demo/share/base_interface_demo/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/y/lxy_ROS2/ROS2_git/build/pk04_action_cpp
+[ 25%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo02_action_client.dir/src/demo02_action_client.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable demo01_action_server[0m
+[100%] [32m[1mLinking CXX executable demo02_action_client[0m
+[100%] Built target demo01_action_server
+[100%] Built target demo02_action_client
+-- Install configuration: ""
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo01_action_server
+-- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo01_action_server" to ""
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo02_action_client
+-- Set runtime path of "/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo02_action_client" to ""
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/package_run_dependencies/pk04_action_cpp
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/parent_prefix_path/pk04_action_cpp
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/path.sh
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/path.dsv
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.bash
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.sh
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.zsh
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.dsv
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/package.dsv
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/packages/pk04_action_cpp
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/cmake/pk04_action_cppConfig.cmake
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/cmake/pk04_action_cppConfig-version.cmake
+-- Installing: /home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/package.xml

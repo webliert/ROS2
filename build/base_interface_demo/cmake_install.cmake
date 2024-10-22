@@ -97,7 +97,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo:"
+         OLD_RPATH "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libbase_interface_demo__rosidl_typesupport_fastrtps_c.so")
@@ -364,6 +364,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/action" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_adapter/base_interface_demo/action/Progress.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/msg" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/msg/Student.msg")
 endif()
 
@@ -377,6 +381,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/srv" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_cmake/srv/AddInts_Response.msg")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/action" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/action/Progress.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -636,6 +644,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/cmake" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/cmake" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
@@ -649,10 +661,6 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/cmake" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_interface_demo/cmake" TYPE FILE FILES "/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

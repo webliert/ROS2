@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/base_interface_demo__cpp"
+  "rosidl_generator_cpp/base_interface_demo/action/detail/progress__builder.hpp"
+  "rosidl_generator_cpp/base_interface_demo/action/detail/progress__struct.hpp"
+  "rosidl_generator_cpp/base_interface_demo/action/detail/progress__traits.hpp"
+  "rosidl_generator_cpp/base_interface_demo/action/progress.hpp"
   "rosidl_generator_cpp/base_interface_demo/msg/detail/student__builder.hpp"
   "rosidl_generator_cpp/base_interface_demo/msg/detail/student__struct.hpp"
   "rosidl_generator_cpp/base_interface_demo/msg/detail/student__traits.hpp"

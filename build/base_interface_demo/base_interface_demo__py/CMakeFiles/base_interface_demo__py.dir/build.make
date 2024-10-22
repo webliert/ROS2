@@ -71,10 +71,13 @@ include /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo_
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/_student.py
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/srv/_add_ints.py
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/_progress.py
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/__init__.py
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/srv/__init__.py
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/__init__.py
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/_student_s.c
 /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/srv/_add_ints_s.c
+/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/_progress_s.c
 
 rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -91,6 +94,14 @@ rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesup
 rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interface_demo/msg/Student.idl
 rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interface_demo/srv/AddInts.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/base_interface_demo/action/Progress.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -106,11 +117,17 @@ rosidl_generator_py/base_interface_demo/msg/_student.py: rosidl_generator_py/bas
 rosidl_generator_py/base_interface_demo/srv/_add_ints.py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/srv/_add_ints.py
 
+rosidl_generator_py/base_interface_demo/action/_progress.py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/action/_progress.py
+
 rosidl_generator_py/base_interface_demo/msg/__init__.py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/msg/__init__.py
 
 rosidl_generator_py/base_interface_demo/srv/__init__.py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/srv/__init__.py
+
+rosidl_generator_py/base_interface_demo/action/__init__.py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/action/__init__.py
 
 rosidl_generator_py/base_interface_demo/msg/_student_s.c: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/msg/_student_s.c
@@ -118,10 +135,16 @@ rosidl_generator_py/base_interface_demo/msg/_student_s.c: rosidl_generator_py/ba
 rosidl_generator_py/base_interface_demo/srv/_add_ints_s.c: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/srv/_add_ints_s.c
 
+rosidl_generator_py/base_interface_demo/action/_progress_s.c: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/base_interface_demo/action/_progress_s.c
+
 base_interface_demo__py: /home/y/lxy_ROS2/ROS2_git/build/base_interface_demo/base_interface_demo__py/CMakeFiles/base_interface_demo__py
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_c.c
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/_base_interface_demo_s.ep.rosidl_typesupport_introspection_c.c
+base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/__init__.py
+base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/_progress.py
+base_interface_demo__py: rosidl_generator_py/base_interface_demo/action/_progress_s.c
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/__init__.py
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/_student.py
 base_interface_demo__py: rosidl_generator_py/base_interface_demo/msg/_student_s.c

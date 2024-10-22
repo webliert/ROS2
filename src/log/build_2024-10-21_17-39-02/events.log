@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000147] (-) JobUnselected: {'identifier': 'base_interface_demo'}
-[0.000170] (-) JobUnselected: {'identifier': 'pk02_topic_cpp'}
-[0.000180] (-) JobUnselected: {'identifier': 'pk03_service_cpp'}
-[0.000188] (-) JobUnselected: {'identifier': 'pkg01_hello_cpp'}
-[0.000806] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo01_action_server
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/lib/pk04_action_cpp/demo02_action_client
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/package_run_dependencies/pk04_action_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/parent_prefix_path/pk04_action_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/ament_prefix_path.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/ament_prefix_path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/path.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/environment/path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.bash
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.zsh
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/local_setup.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/package.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/ament_index/resource_index/packages/pk04_action_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/cmake/pk04_action_cppConfig.cmake
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/cmake/pk04_action_cppConfig-version.cmake
+/home/y/lxy_ROS2/ROS2_git/install/pk04_action_cpp/share/pk04_action_cpp/package.xml

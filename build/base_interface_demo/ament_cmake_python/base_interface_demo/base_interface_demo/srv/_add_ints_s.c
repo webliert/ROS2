@@ -59,13 +59,13 @@ bool base_interface_demo__srv__add_ints__request__convert_from_py(PyObject * _py
     ros_message->num1 = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
-  {  // num
-    PyObject * field = PyObject_GetAttrString(_pymsg, "num");
+  {  // num2
+    PyObject * field = PyObject_GetAttrString(_pymsg, "num2");
     if (!field) {
       return false;
     }
     assert(PyLong_Check(field));
-    ros_message->num = (int32_t)PyLong_AsLong(field);
+    ros_message->num2 = (int32_t)PyLong_AsLong(field);
     Py_DECREF(field);
   }
 
@@ -101,11 +101,11 @@ PyObject * base_interface_demo__srv__add_ints__request__convert_to_py(void * raw
       }
     }
   }
-  {  // num
+  {  // num2
     PyObject * field = NULL;
-    field = PyLong_FromLong(ros_message->num);
+    field = PyLong_FromLong(ros_message->num2);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "num", field);
+      int rc = PyObject_SetAttrString(_pymessage, "num2", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

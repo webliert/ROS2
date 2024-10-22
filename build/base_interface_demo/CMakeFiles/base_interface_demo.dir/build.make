@@ -70,6 +70,11 @@ CMakeFiles/base_interface_demo: /home/y/lxy_ROS2/ROS2_git/src/base_interface_dem
 CMakeFiles/base_interface_demo: /home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/srv/AddInts.srv
 CMakeFiles/base_interface_demo: rosidl_cmake/srv/AddInts_Request.msg
 CMakeFiles/base_interface_demo: rosidl_cmake/srv/AddInts_Response.msg
+CMakeFiles/base_interface_demo: /home/y/lxy_ROS2/ROS2_git/src/base_interface_demo/action/Progress.action
+CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/base_interface_demo: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 base_interface_demo: CMakeFiles/base_interface_demo
 base_interface_demo: CMakeFiles/base_interface_demo.dir/build.make

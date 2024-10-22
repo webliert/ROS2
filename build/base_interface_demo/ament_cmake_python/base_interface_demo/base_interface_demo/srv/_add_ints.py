@@ -48,13 +48,7 @@ class Metaclass_AddInts_Request(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
-            'NUM__DEFAULT': 2,
         }
-
-    @property
-    def NUM__DEFAULT(cls):
-        """Return default value for message field 'num'."""
-        return 2
 
 
 class AddInts_Request(metaclass=Metaclass_AddInts_Request):
@@ -62,12 +56,12 @@ class AddInts_Request(metaclass=Metaclass_AddInts_Request):
 
     __slots__ = [
         '_num1',
-        '_num',
+        '_num2',
     ]
 
     _fields_and_field_types = {
         'num1': 'int32',
-        'num': 'int32',
+        'num2': 'int32',
     }
 
     SLOT_TYPES = (
@@ -80,8 +74,7 @@ class AddInts_Request(metaclass=Metaclass_AddInts_Request):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.num1 = kwargs.get('num1', int())
-        self.num = kwargs.get(
-            'num', AddInts_Request.NUM__DEFAULT)
+        self.num2 = kwargs.get('num2', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -114,7 +107,7 @@ class AddInts_Request(metaclass=Metaclass_AddInts_Request):
             return False
         if self.num1 != other.num1:
             return False
-        if self.num != other.num:
+        if self.num2 != other.num2:
             return False
         return True
 
@@ -139,19 +132,19 @@ class AddInts_Request(metaclass=Metaclass_AddInts_Request):
         self._num1 = value
 
     @builtins.property
-    def num(self):
-        """Message field 'num'."""
-        return self._num
+    def num2(self):
+        """Message field 'num2'."""
+        return self._num2
 
-    @num.setter
-    def num(self, value):
+    @num2.setter
+    def num2(self, value):
         if __debug__:
             assert \
                 isinstance(value, int), \
-                "The 'num' field must be of type 'int'"
+                "The 'num2' field must be of type 'int'"
             assert value >= -2147483648 and value < 2147483648, \
-                "The 'num' field must be an integer in [-2147483648, 2147483647]"
-        self._num = value
+                "The 'num2' field must be an integer in [-2147483648, 2147483647]"
+        self._num2 = value
 
 
 # Import statements for member types

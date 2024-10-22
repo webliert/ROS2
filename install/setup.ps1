@@ -23,7 +23,6 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/y/lxy_ROS2/ROS2_git/src/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/y/lxy_ROS2/ws00_helloworld/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/y/ROS2_Realman/install\local_setup.ps1"
 
