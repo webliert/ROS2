@@ -1,0 +1,17 @@
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/lib/pk05_parm_cpp/demo01_param_server
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/lib/pk05_parm_cpp/demo02_param_client
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/ament_index/resource_index/package_run_dependencies/pk05_parm_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/ament_index/resource_index/parent_prefix_path/pk05_parm_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/environment/ament_prefix_path.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/environment/ament_prefix_path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/environment/path.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/environment/path.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/local_setup.bash
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/local_setup.sh
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/local_setup.zsh
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/local_setup.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/package.dsv
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/ament_index/resource_index/packages/pk05_parm_cpp
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/cmake/pk05_parm_cppConfig.cmake
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/cmake/pk05_parm_cppConfig-version.cmake
+/home/y/lxy_ROS2/ROS2_git/install/pk05_parm_cpp/share/pk05_parm_cpp/package.xml

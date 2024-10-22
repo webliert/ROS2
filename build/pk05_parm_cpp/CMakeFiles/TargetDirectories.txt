@@ -1,0 +1,11 @@
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/uninstall.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/pk05_parm_cpp_uninstall.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/demo01_param_server.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/demo02_param_client.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/test.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/edit_cache.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/rebuild_cache.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/list_install_components.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/install.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/install/local.dir
+/home/y/lxy_ROS2/ROS2_git/build/pk05_parm_cpp/CMakeFiles/install/strip.dir
